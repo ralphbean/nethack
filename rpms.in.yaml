@@ -1,0 +1,6 @@
+contentOrigin:
+  repofiles:
+    - ./fedora.repo
+    - ./fedora-updates.repo
+packages:
+  - nethack
