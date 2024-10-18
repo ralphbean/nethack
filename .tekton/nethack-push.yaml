@@ -235,7 +235,7 @@ spec:
             - name: name
               value: buildah
             - name: bundle
-              value: quay.io/konflux-ci/tekton-catalog/task-buildah:0.1@sha256:4eef4158f9d8d42136a8a92563a5f978123b22fd74fed72761aa7eb9289e78ae
+              value: quay.io/konflux-ci/tekton-catalog/task-buildah:0.2@sha256:67f0290a8ad9a147cd28bb06af182b3e4b2b3ef17070196d476d8e2ae4302ecf
             - name: kind
               value: task
           resolver: bundles
@@ -251,8 +251,6 @@ spec:
         params:
           - name: BINARY_IMAGE
             value: $(params.output-image)
-          - name: BASE_IMAGES
-            value: $(tasks.build-container.results.BASE_IMAGES_DIGESTS)
         runAfter:
           - build-container
         taskRef:
@@ -278,8 +276,6 @@ spec:
             workspace: workspace
       - name: deprecated-base-image-check
         params:
-          - name: BASE_IMAGES_DIGESTS
-            value: $(tasks.build-container.results.BASE_IMAGES_DIGESTS)
           - name: IMAGE_URL
             value: $(tasks.build-container.results.IMAGE_URL)
           - name: IMAGE_DIGEST
