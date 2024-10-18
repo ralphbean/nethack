@@ -179,20 +179,20 @@ arches:
     name: harfbuzz
     evr: 8.5.0-1.fc40
     sourcerpm: harfbuzz-8.5.0-1.fc40.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/updates/40/Everything/x86_64/Packages/l/libX11-1.8.10-1.fc40.x86_64.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/updates/40/Everything/x86_64/Packages/l/libX11-1.8.10-2.fc40.x86_64.rpm
     repoid: updates
-    size: 665273
-    checksum: sha256:860faa52b482fd25cff191dd3c01b696b80d089b3671e810961e8613da8c680b
+    size: 665380
+    checksum: sha256:5d93922232932a8f42ccb1e9ddb7c0f5c57c7acce6d37fd69ab0acb78f9016b3
     name: libX11
-    evr: 1.8.10-1.fc40
-    sourcerpm: libX11-1.8.10-1.fc40.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/updates/40/Everything/x86_64/Packages/l/libX11-common-1.8.10-1.fc40.noarch.rpm
+    evr: 1.8.10-2.fc40
+    sourcerpm: libX11-1.8.10-2.fc40.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/updates/40/Everything/x86_64/Packages/l/libX11-common-1.8.10-2.fc40.noarch.rpm
     repoid: updates
-    size: 179950
-    checksum: sha256:f3484d8ad9e2e69cf1802376bc302742614879b10bac1ed0be5194b3d67ea66f
+    size: 180048
+    checksum: sha256:7ab9443a2a45d276143bc2eb4c83b6da302db59792e9fd7fca3f063e7cabcfeb
     name: libX11-common
-    evr: 1.8.10-1.fc40
-    sourcerpm: libX11-1.8.10-1.fc40.src.rpm
+    evr: 1.8.10-2.fc40
+    sourcerpm: libX11-1.8.10-2.fc40.src.rpm
   - url: http://mirror.rit.edu/pub/fedora/fedora/linux/updates/40/Everything/x86_64/Packages/l/libXmu-1.2.1-1.fc40.x86_64.rpm
     repoid: updates
     size: 79577
@@ -200,13 +200,13 @@ arches:
     name: libXmu
     evr: 1.2.1-1.fc40
     sourcerpm: libXmu-1.2.1-1.fc40.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/updates/40/Everything/x86_64/Packages/l/libxcb-1.17.0-1.fc40.x86_64.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/updates/40/Everything/x86_64/Packages/l/libxcb-1.17.0-2.fc40.x86_64.rpm
     repoid: updates
-    size: 244439
-    checksum: sha256:efbffb375e2ae13d9dd6034e957fbfb8f86132d5298003f713ad804e06f486d7
+    size: 245781
+    checksum: sha256:7e2761b05f9f03bcca9989b9edf08164f908c0ea5a22faecf7486ff428ebb32e
     name: libxcb
-    evr: 1.17.0-1.fc40
-    sourcerpm: libxcb-1.17.0-1.fc40.src.rpm
+    evr: 1.17.0-2.fc40
+    sourcerpm: libxcb-1.17.0-2.fc40.src.rpm
   - url: http://mirror.rit.edu/pub/fedora/fedora/linux/updates/40/Everything/x86_64/Packages/p/pixman-0.43.4-1.fc40.x86_64.rpm
     repoid: updates
     size: 300280
@@ -215,3 +215,4 @@ arches:
     evr: 0.43.4-1.fc40
     sourcerpm: pixman-0.43.4-1.fc40.src.rpm
   source: []
+  module_metadata: []
