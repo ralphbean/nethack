@@ -28,7 +28,7 @@ spec:
     value: 5d
   - name: build-platforms
     value:
-    - linux/amd64
+    - local
     - linux/arm64
 
   - name: dockerfile
