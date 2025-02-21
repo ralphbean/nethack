@@ -2,217 +2,305 @@
 lockfileVersion: 1
 lockfileVendor: redhat
 arches:
+- arch: aarch64
+  packages:
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/41/Everything/aarch64/os/Packages/f/fonts-filesystem-2.0.5-17.fc41.noarch.rpm
+    repoid: fedora
+    size: 8687
+    checksum: sha256:f0cb08cd63a2394cb863cdc2ec86f1bf1211076b5fadd7a239a3166309208c67
+    name: fonts-filesystem
+    evr: 1:2.0.5-17.fc41
+    sourcerpm: fonts-rpm-macros-2.0.5-17.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/41/Everything/aarch64/os/Packages/f/freetype-2.13.3-1.fc41.aarch64.rpm
+    repoid: fedora
+    size: 410568
+    checksum: sha256:dc1ab820d975e7e67a8052cb3334435dde6c58b7fe6648ded5f0681c3e53bd6b
+    name: freetype
+    evr: 2.13.3-1.fc41
+    sourcerpm: freetype-2.13.3-1.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/41/Everything/aarch64/os/Packages/g/graphite2-1.3.14-16.fc41.aarch64.rpm
+    repoid: fedora
+    size: 93867
+    checksum: sha256:9e11a301f78686a688f23b95871574fc15d060182b99be2ffe1b6dd5bd9afb33
+    name: graphite2
+    evr: 1.3.14-16.fc41
+    sourcerpm: graphite2-1.3.14-16.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/41/Everything/aarch64/os/Packages/h/harfbuzz-9.0.0-3.fc41.aarch64.rpm
+    repoid: fedora
+    size: 1054597
+    checksum: sha256:ff65bdba2d36277b7cc9d4f8f0930ece7497d387402d1d56fc4531cdd75fd1c9
+    name: harfbuzz
+    evr: 9.0.0-3.fc41
+    sourcerpm: harfbuzz-9.0.0-3.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/41/Everything/aarch64/os/Packages/l/libXau-1.0.11-7.fc41.aarch64.rpm
+    repoid: fedora
+    size: 33142
+    checksum: sha256:ec350117aa1e24ec6c02abdb37861fd892ea38ed0dd1c792a2a127854324b5d7
+    name: libXau
+    evr: 1.0.11-7.fc41
+    sourcerpm: libXau-1.0.11-7.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/41/Everything/aarch64/os/Packages/l/libXaw-1.0.16-2.fc41.aarch64.rpm
+    repoid: fedora
+    size: 204130
+    checksum: sha256:0a1008593a9c08ae542f157dd08cfe32d38e5a0f2d3d12fd8f1f70a72513e2dc
+    name: libXaw
+    evr: 1.0.16-2.fc41
+    sourcerpm: libXaw-1.0.16-2.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/41/Everything/aarch64/os/Packages/l/libXext-1.3.6-2.fc41.aarch64.rpm
+    repoid: fedora
+    size: 39726
+    checksum: sha256:980d6d7c62ddcf3a14ccbf24ed22d8114524da8ecf1b2df0e09abf8740579a1c
+    name: libXext
+    evr: 1.3.6-2.fc41
+    sourcerpm: libXext-1.3.6-2.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/41/Everything/aarch64/os/Packages/l/libXmu-1.2.1-2.fc41.aarch64.rpm
+    repoid: fedora
+    size: 79603
+    checksum: sha256:d28ea77de61d3189b4ccff2919026b38948476db464d4ef023e74adcc60937ac
+    name: libXmu
+    evr: 1.2.1-2.fc41
+    sourcerpm: libXmu-1.2.1-2.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/41/Everything/aarch64/os/Packages/l/libXpm-3.5.17-4.fc41.aarch64.rpm
+    repoid: fedora
+    size: 65889
+    checksum: sha256:b47c2f034b068a2feb612c3b5adb241dcd5cdcde18782684e93752a93e5fbb80
+    name: libXpm
+    evr: 3.5.17-4.fc41
+    sourcerpm: libXpm-3.5.17-4.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/41/Everything/aarch64/os/Packages/l/libfontenc-1.1.8-2.fc41.aarch64.rpm
+    repoid: fedora
+    size: 33630
+    checksum: sha256:aab78ad10cd652fe96287498a5430126de9a6dd31ace99e12641b3db97ef330b
+    name: libfontenc
+    evr: 1.1.8-2.fc41
+    sourcerpm: libfontenc-1.1.8-2.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/41/Everything/aarch64/os/Packages/l/libpng-1.6.40-4.fc41.aarch64.rpm
+    repoid: fedora
+    size: 119078
+    checksum: sha256:759d155768d6cc425a210eabd7bc16a95e99433aaf11537e8a24bb301263991c
+    name: libpng
+    evr: 2:1.6.40-4.fc41
+    sourcerpm: libpng-1.6.40-4.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/41/Everything/aarch64/os/Packages/l/libxcb-1.17.0-3.fc41.aarch64.rpm
+    repoid: fedora
+    size: 254132
+    checksum: sha256:dbeb0914a57bdb9ff085b493c4f1f6709d615dd39c1e0b633e6ea0d6c8045c88
+    name: libxcb
+    evr: 1.17.0-3.fc41
+    sourcerpm: libxcb-1.17.0-3.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/41/Everything/aarch64/os/Packages/m/mkfontscale-1.2.3-1.fc41.aarch64.rpm
+    repoid: fedora
+    size: 32428
+    checksum: sha256:f2a7bd364dfebb90f8a710d607f09e83c2faa6b4fcc9f303ab65a980b8452a34
+    name: mkfontscale
+    evr: 1.2.3-1.fc41
+    sourcerpm: mkfontscale-1.2.3-1.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/41/Everything/aarch64/os/Packages/n/nethack-3.6.7-5.fc41.aarch64.rpm
+    repoid: fedora
+    size: 2047185
+    checksum: sha256:8ed8311c56ac197b907da44148fd71819308e0ca77ad57a2da84c447038b2d55
+    name: nethack
+    evr: 3.6.7-5.fc41
+    sourcerpm: nethack-3.6.7-5.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/41/Everything/aarch64/os/Packages/n/nethack-bitmap-fonts-3.6.7-5.fc41.noarch.rpm
+    repoid: fedora
+    size: 16658
+    checksum: sha256:dfa6e56551033e6a85d91c43162f61ba3bb02e8f6f4d23232ac59dd8e0c76410
+    name: nethack-bitmap-fonts
+    evr: 3.6.7-5.fc41
+    sourcerpm: nethack-3.6.7-5.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/41/Everything/aarch64/os/Packages/n/nethack-bitmap-fonts-core-3.6.7-5.fc41.noarch.rpm
+    repoid: fedora
+    size: 7829
+    checksum: sha256:fa2da6eec04b78a9e29b4c5a191e764a77fa44588b29cdf7c22f4677bd74edc5
+    name: nethack-bitmap-fonts-core
+    evr: 3.6.7-5.fc41
+    sourcerpm: nethack-3.6.7-5.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/updates/41/Everything/aarch64/Packages/l/libICE-1.1.2-1.fc41.aarch64.rpm
+    repoid: updates
+    size: 75451
+    checksum: sha256:7c9ca4da07b15665f7bbd017653693c14041c308394cc5aab75a2ee92acd78e9
+    name: libICE
+    evr: 1.1.2-1.fc41
+    sourcerpm: libICE-1.1.2-1.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/updates/41/Everything/aarch64/Packages/l/libSM-1.2.5-1.fc41.aarch64.rpm
+    repoid: updates
+    size: 43685
+    checksum: sha256:c25ee700acb8dfa4d4fd9f7324e52fef675e51c3839f40da36e11e631053f217
+    name: libSM
+    evr: 1.2.5-1.fc41
+    sourcerpm: libSM-1.2.5-1.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/updates/41/Everything/aarch64/Packages/l/libX11-1.8.11-1.fc41.aarch64.rpm
+    repoid: updates
+    size: 659034
+    checksum: sha256:fd0c2b7ffce7434eb09e30085638724ec3ace707c8f53c908a8f7f63b8e9a217
+    name: libX11
+    evr: 1.8.11-1.fc41
+    sourcerpm: libX11-1.8.11-1.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/updates/41/Everything/aarch64/Packages/l/libX11-common-1.8.11-1.fc41.noarch.rpm
+    repoid: updates
+    size: 180376
+    checksum: sha256:747c7000c7e0c9025dc55a963a97616cf18c461f4a131e4048b89010fd83fda9
+    name: libX11-common
+    evr: 1.8.11-1.fc41
+    sourcerpm: libX11-1.8.11-1.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/updates/41/Everything/aarch64/Packages/l/libXt-1.3.1-1.fc41.aarch64.rpm
+    repoid: updates
+    size: 179097
+    checksum: sha256:9b3d7d5bcef4006aebfd4e1c18671f2602bf9744bf4cc2b1be0c2da86ca296de
+    name: libXt
+    evr: 1.3.1-1.fc41
+    sourcerpm: libXt-1.3.1-1.fc41.src.rpm
+  source: []
+  module_metadata: []
 - arch: x86_64
   packages:
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/40/Everything/x86_64/os/Packages/a/abattis-cantarell-vf-fonts-0.301-12.fc40.noarch.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/41/Everything/x86_64/os/Packages/f/fonts-filesystem-2.0.5-17.fc41.noarch.rpm
     repoid: fedora
-    size: 123217
-    checksum: sha256:97b60b65a92b1e98462e194a54e863eb4ed6a44361a53d5c940d43c8fe889977
-    name: abattis-cantarell-vf-fonts
-    evr: 0.301-12.fc40
-    sourcerpm: abattis-cantarell-fonts-0.301-12.fc40.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/40/Everything/x86_64/os/Packages/c/cairo-1.18.0-3.fc40.x86_64.rpm
-    repoid: fedora
-    size: 725963
-    checksum: sha256:e5b5a95d76ee9b7691e0077a0fc3dbc6f4ab395452f69842eead74d793c9e174
-    name: cairo
-    evr: 1.18.0-3.fc40
-    sourcerpm: cairo-1.18.0-3.fc40.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/40/Everything/x86_64/os/Packages/f/fonts-filesystem-2.0.5-14.fc40.noarch.rpm
-    repoid: fedora
-    size: 8350
-    checksum: sha256:380d03f1c209bdfb39052cf8b4d762c3001f0ec42ee8fabd1875669fede03bd1
+    size: 8687
+    checksum: sha256:f0cb08cd63a2394cb863cdc2ec86f1bf1211076b5fadd7a239a3166309208c67
     name: fonts-filesystem
-    evr: 1:2.0.5-14.fc40
-    sourcerpm: fonts-rpm-macros-2.0.5-14.fc40.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/40/Everything/x86_64/os/Packages/f/freetype-2.13.2-5.fc40.x86_64.rpm
+    evr: 1:2.0.5-17.fc41
+    sourcerpm: fonts-rpm-macros-2.0.5-17.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/41/Everything/x86_64/os/Packages/f/freetype-2.13.3-1.fc41.x86_64.rpm
     repoid: fedora
-    size: 419542
-    checksum: sha256:310204e9ca4ae00fead52aef3a8afe477509012bd9117a5cf57e73c51c6f5f74
+    size: 419069
+    checksum: sha256:6e405ca44cb005abce125b8324a8cce958c7a8023a0cafc07dab5e7b667fb744
     name: freetype
-    evr: 2.13.2-5.fc40
-    sourcerpm: freetype-2.13.2-5.fc40.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/40/Everything/x86_64/os/Packages/g/google-noto-fonts-common-20240301-2.fc40.noarch.rpm
+    evr: 2.13.3-1.fc41
+    sourcerpm: freetype-2.13.3-1.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/41/Everything/x86_64/os/Packages/g/graphite2-1.3.14-16.fc41.x86_64.rpm
     repoid: fedora
-    size: 17671
-    checksum: sha256:cb8e8d944191a878189ea4dcc57466ab369691559bb72c1f1fd667709fe72671
-    name: google-noto-fonts-common
-    evr: 20240301-2.fc40
-    sourcerpm: google-noto-fonts-20240301-2.fc40.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/40/Everything/x86_64/os/Packages/g/google-noto-sans-vf-fonts-20240301-2.fc40.noarch.rpm
-    repoid: fedora
-    size: 607498
-    checksum: sha256:d9eac2f06863dc9f0cd9cd376f7fd8725ac7b87f061b2442d12c1f0d45a70e42
-    name: google-noto-sans-vf-fonts
-    evr: 20240301-2.fc40
-    sourcerpm: google-noto-fonts-20240301-2.fc40.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/40/Everything/x86_64/os/Packages/g/graphite2-1.3.14-15.fc40.x86_64.rpm
-    repoid: fedora
-    size: 97123
-    checksum: sha256:6ce6fae03da2c847e0a82d846f1a917fda6ff098904779ccad8ae4c8ec651422
+    size: 97417
+    checksum: sha256:e36dcc326e0a1a4ef1341b391dc90846956534072d4290fbc870ab638574a4ef
     name: graphite2
-    evr: 1.3.14-15.fc40
-    sourcerpm: graphite2-1.3.14-15.fc40.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/40/Everything/x86_64/os/Packages/l/libICE-1.1.1-3.fc40.x86_64.rpm
+    evr: 1.3.14-16.fc41
+    sourcerpm: graphite2-1.3.14-16.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/41/Everything/x86_64/os/Packages/h/harfbuzz-9.0.0-3.fc41.x86_64.rpm
     repoid: fedora
-    size: 76238
-    checksum: sha256:b69f6e67f9f8e849dd0a8c425409a0c29241c4849ce5ce4e36c23b92baefe251
-    name: libICE
-    evr: 1.1.1-3.fc40
-    sourcerpm: libICE-1.1.1-3.fc40.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/40/Everything/x86_64/os/Packages/l/libSM-1.2.4-3.fc40.x86_64.rpm
-    repoid: fedora
-    size: 44035
-    checksum: sha256:98fccf143612f52deac36dea71d6790c6569a49e212be174937f23696796960c
-    name: libSM
-    evr: 1.2.4-3.fc40
-    sourcerpm: libSM-1.2.4-3.fc40.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/40/Everything/x86_64/os/Packages/l/libXau-1.0.11-6.fc40.x86_64.rpm
-    repoid: fedora
-    size: 32461
-    checksum: sha256:58f87b69e579e335df2ba6cf8b6cf55c33d80c6d3bc3b5a79af98bd407cf9dc7
-    name: libXau
-    evr: 1.0.11-6.fc40
-    sourcerpm: libXau-1.0.11-6.fc40.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/40/Everything/x86_64/os/Packages/l/libXaw-1.0.15-3.fc40.x86_64.rpm
-    repoid: fedora
-    size: 204213
-    checksum: sha256:c78e10d1c34bd02fbf35249fb330a147b4f12e0ee26c28af24cb48093e77c3cc
-    name: libXaw
-    evr: 1.0.15-3.fc40
-    sourcerpm: libXaw-1.0.15-3.fc40.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/40/Everything/x86_64/os/Packages/l/libXext-1.3.6-1.fc40.x86_64.rpm
-    repoid: fedora
-    size: 39840
-    checksum: sha256:2bd52de41cf96c9bf1d3c885d870e8700d0fe460eecb510bbd55bec5dfa9451c
-    name: libXext
-    evr: 1.3.6-1.fc40
-    sourcerpm: libXext-1.3.6-1.fc40.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/40/Everything/x86_64/os/Packages/l/libXpm-3.5.17-3.fc40.x86_64.rpm
-    repoid: fedora
-    size: 67307
-    checksum: sha256:b2c5530ce00d93fd4d03e3f4ba6169d4f63486b20b65e073d272da464c784e69
-    name: libXpm
-    evr: 3.5.17-3.fc40
-    sourcerpm: libXpm-3.5.17-3.fc40.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/40/Everything/x86_64/os/Packages/l/libXrender-0.9.11-6.fc40.x86_64.rpm
-    repoid: fedora
-    size: 28008
-    checksum: sha256:fe756b223c6297bd94cd97aa4c7a5b87a08e86f80a2cfe697b428c7d20bfa5f6
-    name: libXrender
-    evr: 0.9.11-6.fc40
-    sourcerpm: libXrender-0.9.11-6.fc40.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/40/Everything/x86_64/os/Packages/l/libXt-1.3.0-3.fc40.x86_64.rpm
-    repoid: fedora
-    size: 181746
-    checksum: sha256:2e6d5c3664ec5b9c70048efbfec0d8e905fecfd57241d08236385635e0833df3
-    name: libXt
-    evr: 1.3.0-3.fc40
-    sourcerpm: libXt-1.3.0-3.fc40.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/40/Everything/x86_64/os/Packages/l/libfontenc-1.1.7-3.fc40.x86_64.rpm
-    repoid: fedora
-    size: 32688
-    checksum: sha256:7af9bfb7476e1231be5eb58aab567471a5dab4091341794fd9dedef292453f14
-    name: libfontenc
-    evr: 1.1.7-3.fc40
-    sourcerpm: libfontenc-1.1.7-3.fc40.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/40/Everything/x86_64/os/Packages/l/libpng-1.6.40-3.fc40.x86_64.rpm
-    repoid: fedora
-    size: 122793
-    checksum: sha256:f115b64206304002c658f83c829623aa966e0d99f24de5d60c79a19142803ecb
-    name: libpng
-    evr: 2:1.6.40-3.fc40
-    sourcerpm: libpng-1.6.40-3.fc40.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/40/Everything/x86_64/os/Packages/m/mkfontscale-1.2.2-6.fc40.x86_64.rpm
-    repoid: fedora
-    size: 32567
-    checksum: sha256:669fa231291b38fb47dfdac4535f0af48387bcdc30bf67efdb1c7f7aaeddd761
-    name: mkfontscale
-    evr: 1.2.2-6.fc40
-    sourcerpm: mkfontscale-1.2.2-6.fc40.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/40/Everything/x86_64/os/Packages/n/nethack-3.6.7-4.fc40.x86_64.rpm
-    repoid: fedora
-    size: 2084116
-    checksum: sha256:382f5242ec3f777581c6ef89fef5044667347ccb09518f7254bfda10b3953209
-    name: nethack
-    evr: 3.6.7-4.fc40
-    sourcerpm: nethack-3.6.7-4.fc40.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/40/Everything/x86_64/os/Packages/n/nethack-bitmap-fonts-3.6.7-4.fc40.noarch.rpm
-    repoid: fedora
-    size: 17315
-    checksum: sha256:3eaddd475d7d68a372d0261a7981652d7eb28e3089649d6bc6c3d390b4b547f5
-    name: nethack-bitmap-fonts
-    evr: 3.6.7-4.fc40
-    sourcerpm: nethack-3.6.7-4.fc40.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/40/Everything/x86_64/os/Packages/n/nethack-bitmap-fonts-core-3.6.7-4.fc40.noarch.rpm
-    repoid: fedora
-    size: 7781
-    checksum: sha256:e8da1d6ce227726230aa3edeee8502fb24144968602d03f5372cab02574abf20
-    name: nethack-bitmap-fonts-core
-    evr: 3.6.7-4.fc40
-    sourcerpm: nethack-3.6.7-4.fc40.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/40/Everything/x86_64/os/Packages/x/xml-common-0.6.3-63.fc40.noarch.rpm
-    repoid: fedora
-    size: 31723
-    checksum: sha256:b15ab14129ac17f34ac5e5cf84dbf6340684fbad5d2d4baeb6857531ee8fe15d
-    name: xml-common
-    evr: 0.6.3-63.fc40
-    sourcerpm: sgml-common-0.6.3-63.fc40.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/updates/40/Everything/x86_64/Packages/d/default-fonts-core-sans-4.0-13.fc40.noarch.rpm
-    repoid: updates
-    size: 32208
-    checksum: sha256:bdf9486fc95ce99abda245caf378d9903c1dde7601434ccff8e1a51eecbfb525
-    name: default-fonts-core-sans
-    evr: 4.0-13.fc40
-    sourcerpm: langpacks-4.0-13.fc40.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/updates/40/Everything/x86_64/Packages/f/fontconfig-2.15.0-6.fc40.x86_64.rpm
-    repoid: updates
-    size: 276289
-    checksum: sha256:7545144b50eae97c5a37b322fd616531fb198e751446d7f00fe007156218f308
-    name: fontconfig
-    evr: 2.15.0-6.fc40
-    sourcerpm: fontconfig-2.15.0-6.fc40.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/updates/40/Everything/x86_64/Packages/h/harfbuzz-8.5.0-1.fc40.x86_64.rpm
-    repoid: updates
-    size: 1073085
-    checksum: sha256:8526160b253b26bd588e8f9b6c942004cea03bf328ed8a89de7e9e2eafe28010
+    size: 1055044
+    checksum: sha256:a1fb2695abf76242657d30a91c8847212b3cf32c1a8e42c556138c5b4f3ddce9
     name: harfbuzz
-    evr: 8.5.0-1.fc40
-    sourcerpm: harfbuzz-8.5.0-1.fc40.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/updates/40/Everything/x86_64/Packages/l/libX11-1.8.10-2.fc40.x86_64.rpm
-    repoid: updates
-    size: 665380
-    checksum: sha256:5d93922232932a8f42ccb1e9ddb7c0f5c57c7acce6d37fd69ab0acb78f9016b3
-    name: libX11
-    evr: 1.8.10-2.fc40
-    sourcerpm: libX11-1.8.10-2.fc40.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/updates/40/Everything/x86_64/Packages/l/libX11-common-1.8.10-2.fc40.noarch.rpm
-    repoid: updates
-    size: 180048
-    checksum: sha256:7ab9443a2a45d276143bc2eb4c83b6da302db59792e9fd7fca3f063e7cabcfeb
-    name: libX11-common
-    evr: 1.8.10-2.fc40
-    sourcerpm: libX11-1.8.10-2.fc40.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/updates/40/Everything/x86_64/Packages/l/libXmu-1.2.1-1.fc40.x86_64.rpm
-    repoid: updates
-    size: 79577
-    checksum: sha256:23e870d9d0e40fac7d8b1df074833653834991d13c89ff606b58ac4b46067184
+    evr: 9.0.0-3.fc41
+    sourcerpm: harfbuzz-9.0.0-3.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/41/Everything/x86_64/os/Packages/l/libXau-1.0.11-7.fc41.x86_64.rpm
+    repoid: fedora
+    size: 32654
+    checksum: sha256:34b10b4c711acee3d3854532b9ec7bc1a46d1994d0baeea6a2e291557ea1f31c
+    name: libXau
+    evr: 1.0.11-7.fc41
+    sourcerpm: libXau-1.0.11-7.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/41/Everything/x86_64/os/Packages/l/libXaw-1.0.16-2.fc41.x86_64.rpm
+    repoid: fedora
+    size: 207478
+    checksum: sha256:db7b725550d7a5c1deaa6f3c18977672d393b2253fc126385683969eae7fc4a6
+    name: libXaw
+    evr: 1.0.16-2.fc41
+    sourcerpm: libXaw-1.0.16-2.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/41/Everything/x86_64/os/Packages/l/libXext-1.3.6-2.fc41.x86_64.rpm
+    repoid: fedora
+    size: 40016
+    checksum: sha256:1e4da0279c8bdf58748e065d43b94e9472d7619e50d128455de74d91d60788e8
+    name: libXext
+    evr: 1.3.6-2.fc41
+    sourcerpm: libXext-1.3.6-2.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/41/Everything/x86_64/os/Packages/l/libXmu-1.2.1-2.fc41.x86_64.rpm
+    repoid: fedora
+    size: 79904
+    checksum: sha256:ccdf68d5ca5b95e00ca8a7fee107f941cdadcf1fc4832b8d02fed3d36792018b
     name: libXmu
-    evr: 1.2.1-1.fc40
-    sourcerpm: libXmu-1.2.1-1.fc40.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/updates/40/Everything/x86_64/Packages/l/libxcb-1.17.0-2.fc40.x86_64.rpm
-    repoid: updates
-    size: 245781
-    checksum: sha256:7e2761b05f9f03bcca9989b9edf08164f908c0ea5a22faecf7486ff428ebb32e
+    evr: 1.2.1-2.fc41
+    sourcerpm: libXmu-1.2.1-2.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/41/Everything/x86_64/os/Packages/l/libXpm-3.5.17-4.fc41.x86_64.rpm
+    repoid: fedora
+    size: 67583
+    checksum: sha256:aea20573f422d2ff9f81ac7a2492c236c0f5b9f6e381b9ea425840f5aebdd0d8
+    name: libXpm
+    evr: 3.5.17-4.fc41
+    sourcerpm: libXpm-3.5.17-4.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/41/Everything/x86_64/os/Packages/l/libfontenc-1.1.8-2.fc41.x86_64.rpm
+    repoid: fedora
+    size: 33361
+    checksum: sha256:72ab45247fc3f16d2c5f8a59f4c92a54c9e2fa63c0bf96f3b78d59e975a9100d
+    name: libfontenc
+    evr: 1.1.8-2.fc41
+    sourcerpm: libfontenc-1.1.8-2.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/41/Everything/x86_64/os/Packages/l/libpng-1.6.40-4.fc41.x86_64.rpm
+    repoid: fedora
+    size: 123178
+    checksum: sha256:43fedc359eea08f4c72440e81a62dfce9a477ad0fd8fedeebd8956670534551d
+    name: libpng
+    evr: 2:1.6.40-4.fc41
+    sourcerpm: libpng-1.6.40-4.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/41/Everything/x86_64/os/Packages/l/libxcb-1.17.0-3.fc41.x86_64.rpm
+    repoid: fedora
+    size: 246437
+    checksum: sha256:9a08a08b8df01c5718da8999950067b8c0697cefba7390340b085de166879507
     name: libxcb
-    evr: 1.17.0-2.fc40
-    sourcerpm: libxcb-1.17.0-2.fc40.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/updates/40/Everything/x86_64/Packages/p/pixman-0.43.4-1.fc40.x86_64.rpm
+    evr: 1.17.0-3.fc41
+    sourcerpm: libxcb-1.17.0-3.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/41/Everything/x86_64/os/Packages/m/mkfontscale-1.2.3-1.fc41.x86_64.rpm
+    repoid: fedora
+    size: 32648
+    checksum: sha256:97ab137ca1951c62c2b94afa0c4fe5d8a03f05d5bca26c771b8875ceb019dc32
+    name: mkfontscale
+    evr: 1.2.3-1.fc41
+    sourcerpm: mkfontscale-1.2.3-1.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/41/Everything/x86_64/os/Packages/n/nethack-3.6.7-5.fc41.x86_64.rpm
+    repoid: fedora
+    size: 2086879
+    checksum: sha256:51e019e366d5285953e36af5dfd840b69bbc5bcc6c994a865fbbb36dfb2b83fe
+    name: nethack
+    evr: 3.6.7-5.fc41
+    sourcerpm: nethack-3.6.7-5.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/41/Everything/x86_64/os/Packages/n/nethack-bitmap-fonts-3.6.7-5.fc41.noarch.rpm
+    repoid: fedora
+    size: 16658
+    checksum: sha256:dfa6e56551033e6a85d91c43162f61ba3bb02e8f6f4d23232ac59dd8e0c76410
+    name: nethack-bitmap-fonts
+    evr: 3.6.7-5.fc41
+    sourcerpm: nethack-3.6.7-5.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/41/Everything/x86_64/os/Packages/n/nethack-bitmap-fonts-core-3.6.7-5.fc41.noarch.rpm
+    repoid: fedora
+    size: 7829
+    checksum: sha256:fa2da6eec04b78a9e29b4c5a191e764a77fa44588b29cdf7c22f4677bd74edc5
+    name: nethack-bitmap-fonts-core
+    evr: 3.6.7-5.fc41
+    sourcerpm: nethack-3.6.7-5.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/updates/41/Everything/x86_64/Packages/l/libICE-1.1.2-1.fc41.x86_64.rpm
     repoid: updates
-    size: 300280
-    checksum: sha256:ef1ecf553352e1eac512e8a306f4fd8df7572ead32fe307ba3aba679a61c382f
-    name: pixman
-    evr: 0.43.4-1.fc40
-    sourcerpm: pixman-0.43.4-1.fc40.src.rpm
+    size: 77104
+    checksum: sha256:a4a9ecb96857e3e39b78511732711be87e44a6279ba4ace378c293cb1a2c74fa
+    name: libICE
+    evr: 1.1.2-1.fc41
+    sourcerpm: libICE-1.1.2-1.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/updates/41/Everything/x86_64/Packages/l/libSM-1.2.5-1.fc41.x86_64.rpm
+    repoid: updates
+    size: 43367
+    checksum: sha256:e9c454623e815fb5b2f41f8f6ec5c1ff0ce11df5175a158122dd940b9542517a
+    name: libSM
+    evr: 1.2.5-1.fc41
+    sourcerpm: libSM-1.2.5-1.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/updates/41/Everything/x86_64/Packages/l/libX11-1.8.11-1.fc41.x86_64.rpm
+    repoid: updates
+    size: 665880
+    checksum: sha256:e6192e0d5c4a54fb1de728fd777bc44199187868756097c24c24e3c72a768297
+    name: libX11
+    evr: 1.8.11-1.fc41
+    sourcerpm: libX11-1.8.11-1.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/updates/41/Everything/x86_64/Packages/l/libX11-common-1.8.11-1.fc41.noarch.rpm
+    repoid: updates
+    size: 180376
+    checksum: sha256:747c7000c7e0c9025dc55a963a97616cf18c461f4a131e4048b89010fd83fda9
+    name: libX11-common
+    evr: 1.8.11-1.fc41
+    sourcerpm: libX11-1.8.11-1.fc41.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/updates/41/Everything/x86_64/Packages/l/libXt-1.3.1-1.fc41.x86_64.rpm
+    repoid: updates
+    size: 181764
+    checksum: sha256:58aba05aa92ca64fcfefb6b8352e40cb3abba62a32b7f0ecbff9f7d328a71ddf
+    name: libXt
+    evr: 1.3.1-1.fc41
+    sourcerpm: libXt-1.3.1-1.fc41.src.rpm
   source: []
   module_metadata: []

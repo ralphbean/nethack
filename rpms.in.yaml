@@ -4,3 +4,4 @@ contentOrigin:
     - ./fedora-updates.repo
 packages:
   - nethack
+arches: [x86_64, aarch64]
