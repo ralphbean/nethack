@@ -26,7 +26,8 @@ spec:
     value: quay.io/konflux-fedora/ralph-tenant/nethack:{{revision}}
   - name: build-platforms
     value:
-    - linux/x86_64
+    - linux/amd64
+    - linux/arm64
   - name: dockerfile
     value: Containerfile
   pipelineSpec:
@@ -68,7 +69,7 @@ spec:
       description: Execute the build with network isolation
       name: hermetic
       type: string
-    - default: ""
+    - default: '{"packages": [{"type": "rpm"}]}'
       description: Build dependencies to be prefetched
       name: prefetch-input
       type: string
