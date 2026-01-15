@@ -29,8 +29,7 @@ spec:
     value: 5d
   - name: build-platforms
     value:
-    - linux/amd64
-    - linux/arm64
+    - localhost
   - name: dockerfile
     value: Containerfile
   pipelineSpec:
@@ -253,7 +252,10 @@ spec:
         - name: name
           value: buildah-remote-oci-ta
         - name: bundle
-          value: quay.io/konflux-ci/tekton-catalog/task-buildah-remote-oci-ta:0.7@sha256:d8b2cd0bd3f8e3fdcafe4aebfee59f3f2fcbca78ef31f9c5dd8ecd781cd02636
+          value: quay.io/konflux-ci/tekton-catalog/task-buildah-remote-oci-ta:0.7@sha256:ef1c062b10c9fb17951350de76bce6bb54a4ea75fca4f37ea136d626c444bf78
+          # worked: b24359805297760c87cbce7b4c378267bc83aa1b9a3ac8431829f80bc26ed5d7
+          # failed: ef1c062b10c9fb17951350de76bce6bb54a4ea75fca4f37ea136d626c444bf78
+          # worked: b24359805297760c87cbce7b4c378267bc83aa1b9a3ac8431829f80bc26ed5d7
         - name: kind
           value: task
         resolver: bundles
