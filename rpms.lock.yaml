@@ -18,13 +18,6 @@ arches:
     name: graphite2
     evr: 1.3.14-18.fc42
     sourcerpm: graphite2-1.3.14-18.fc42.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/42/Everything/aarch64/os/Packages/h/harfbuzz-10.4.0-1.fc42.aarch64.rpm
-    repoid: fedora
-    size: 1070748
-    checksum: sha256:6222650fced511a0b34c0a99f9e565529cf78ee5bcfcc71c6672e8a35976a017
-    name: harfbuzz
-    evr: 10.4.0-1.fc42
-    sourcerpm: harfbuzz-10.4.0-1.fc42.src.rpm
   - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/42/Everything/aarch64/os/Packages/l/libICE-1.1.2-2.fc42.aarch64.rpm
     repoid: fedora
     size: 79041
@@ -88,13 +81,6 @@ arches:
     name: libfontenc
     evr: 1.1.8-3.fc42
     sourcerpm: libfontenc-1.1.8-3.fc42.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/42/Everything/aarch64/os/Packages/l/libpng-1.6.44-2.fc42.aarch64.rpm
-    repoid: fedora
-    size: 120804
-    checksum: sha256:7f5f82ca535f579d6f151f098615dbf065d9d6b76ae0ea94a7707930a3703fe9
-    name: libpng
-    evr: 2:1.6.44-2.fc42
-    sourcerpm: libpng-1.6.44-2.fc42.src.rpm
   - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/42/Everything/aarch64/os/Packages/l/libxcb-1.17.0-5.fc42.aarch64.rpm
     repoid: fedora
     size: 247490
@@ -137,6 +123,13 @@ arches:
     name: fonts-filesystem
     evr: 1:2.0.5-22.fc42
     sourcerpm: fonts-rpm-macros-2.0.5-22.fc42.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/updates/42/Everything/aarch64/Packages/h/harfbuzz-10.4.0-2.fc42.aarch64.rpm
+    repoid: updates
+    size: 1072569
+    checksum: sha256:d5f547b37a5880006c69cf85453d239b5e25be45128853c17b4497c1b9d1ee6a
+    name: harfbuzz
+    evr: 10.4.0-2.fc42
+    sourcerpm: harfbuzz-10.4.0-2.fc42.src.rpm
   - url: http://mirror.rit.edu/pub/fedora/fedora/linux/updates/42/Everything/aarch64/Packages/l/libX11-1.8.12-1.fc42.aarch64.rpm
     repoid: updates
     size: 660856
@@ -151,6 +144,13 @@ arches:
     name: libX11-common
     evr: 1.8.12-1.fc42
     sourcerpm: libX11-1.8.12-1.fc42.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/updates/42/Everything/aarch64/Packages/l/libpng-1.6.53-1.fc42.aarch64.rpm
+    repoid: updates
+    size: 120004
+    checksum: sha256:1616f27273a343d8a947c2ec56ac872c95c034d275a61aa6e496c50841d64ad4
+    name: libpng
+    evr: 2:1.6.53-1.fc42
+    sourcerpm: libpng-1.6.53-1.fc42.src.rpm
   source: []
   module_metadata: []
 - arch: x86_64
@@ -169,13 +169,6 @@ arches:
     name: graphite2
     evr: 1.3.14-18.fc42
     sourcerpm: graphite2-1.3.14-18.fc42.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/42/Everything/x86_64/os/Packages/h/harfbuzz-10.4.0-1.fc42.x86_64.rpm
-    repoid: fedora
-    size: 1107458
-    checksum: sha256:6262d57d97262591150a8364e782e7937b5f28cb823c59ce878830c9792312ef
-    name: harfbuzz
-    evr: 10.4.0-1.fc42
-    sourcerpm: harfbuzz-10.4.0-1.fc42.src.rpm
   - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/42/Everything/x86_64/os/Packages/l/libICE-1.1.2-2.fc42.x86_64.rpm
     repoid: fedora
     size: 80675
@@ -239,13 +232,6 @@ arches:
     name: libfontenc
     evr: 1.1.8-3.fc42
     sourcerpm: libfontenc-1.1.8-3.fc42.src.rpm
-  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/42/Everything/x86_64/os/Packages/l/libpng-1.6.44-2.fc42.x86_64.rpm
-    repoid: fedora
-    size: 126863
-    checksum: sha256:14838086e8c1b3f1fdc3d3419432e11db97414e1743b6890b1e56cfdce2bc629
-    name: libpng
-    evr: 2:1.6.44-2.fc42
-    sourcerpm: libpng-1.6.44-2.fc42.src.rpm
   - url: http://mirror.rit.edu/pub/fedora/fedora/linux/releases/42/Everything/x86_64/os/Packages/l/libxcb-1.17.0-5.fc42.x86_64.rpm
     repoid: fedora
     size: 244725
@@ -288,6 +274,13 @@ arches:
     name: fonts-filesystem
     evr: 1:2.0.5-22.fc42
     sourcerpm: fonts-rpm-macros-2.0.5-22.fc42.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/updates/42/Everything/x86_64/Packages/h/harfbuzz-10.4.0-2.fc42.x86_64.rpm
+    repoid: updates
+    size: 1103917
+    checksum: sha256:2b97b53ec2cfd7a9915d662a77cba17ffaabe7b8c47f1d9e7d865a6feef5d37a
+    name: harfbuzz
+    evr: 10.4.0-2.fc42
+    sourcerpm: harfbuzz-10.4.0-2.fc42.src.rpm
   - url: http://mirror.rit.edu/pub/fedora/fedora/linux/updates/42/Everything/x86_64/Packages/l/libX11-1.8.12-1.fc42.x86_64.rpm
     repoid: updates
     size: 671113
@@ -302,5 +295,12 @@ arches:
     name: libX11-common
     evr: 1.8.12-1.fc42
     sourcerpm: libX11-1.8.12-1.fc42.src.rpm
+  - url: http://mirror.rit.edu/pub/fedora/fedora/linux/updates/42/Everything/x86_64/Packages/l/libpng-1.6.53-1.fc42.x86_64.rpm
+    repoid: updates
+    size: 127103
+    checksum: sha256:2ec9f2d00f8bff14b1d5b55386347f4713410b7b4ddfac8fd12c329712ebfc4e
+    name: libpng
+    evr: 2:1.6.53-1.fc42
+    sourcerpm: libpng-1.6.53-1.fc42.src.rpm
   source: []
   module_metadata: []
