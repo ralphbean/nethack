@@ -1,4 +1,4 @@
-FROM registry.fedoraproject.org/fedora:42
+FROM registry.fedoraproject.org/fedora:45
 
 RUN dnf -y install nethack && dnf clean all
 
