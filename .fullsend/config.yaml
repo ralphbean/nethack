@@ -5,12 +5,14 @@
 # See ADR 0033 for details.
 version: "1"
 roles:
-    - triage
     - coder
     - review
     - fix
     - retro
     - prioritize
+agents:
+    - name: triage
+      source: harness/triage.yaml
 allowed_remote_resources:
     - https://raw.githubusercontent.com/fullsend-ai/fullsend/
     - https://raw.githubusercontent.com/fullsend-ai/agents/
