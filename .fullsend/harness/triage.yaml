@@ -1,0 +1,15 @@
+base: https://raw.githubusercontent.com/fullsend-ai/agents/8b9e25e425d18dd71048fb90ae6db2b235c7000d/harness/triage.yaml#sha256=f56cbb0a3c1cb71563aa1b2fb80ca9ecb922e4c832f886e8154e2e9beb6b56c6
+
+# Trigger required locally until upstream harnesses include triggers (#5690).
+trigger: |
+  (event.entity.kind == "work_item"
+    && (event.transition.kind == "opened"
+      || event.transition.kind == "edited"
+      || event.transition.kind == "label_changed"))
+  || (event.entity.kind == "work_item"
+    && event.transition.kind == "comment_added"
+    && event.transition.comment.command == "/fs-triage")
+
+forge:
+  github:
+    pre_script: scripts/custom-pre-triage.sh
